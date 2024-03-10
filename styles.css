@@ -1,0 +1,167 @@
+body {
+    background: linear-gradient(to top, #ffffff, #0b3cf0);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  
+}
+ 
+.bloqueImagenes img {
+    display: inline-block;
+    margin: 20px;
+    width: 450px; 
+    height: 350px; 
+    border-radius: 10px;
+    }
+    
+
+h1 {
+    text-align: center;
+    font-size: 20px; 
+    color: #ffffff;
+}
+
+input[type="text"] {
+    position: absolute;
+    top: 270px;
+    left: 230px;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px solid #ccc;
+    width: 350px; 
+    height:250px; 
+    text-align: left;
+    text-align: start;
+}
+
+
+button {
+    width: 15%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin: 2%;
+    margin-right: 0%;
+}
+
+
+button:hover {
+    background-color: hsl(184, 75%, 65%);
+}
+
+.resultado {
+    position: absolute;
+    top: 250px;
+    left:740px;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px solid #ccc;
+    width: 400px; 
+    height:250px; 
+    text-align: left;
+    text-align: start;
+    
+}
+
+footer {
+
+    text-align: center; 
+    padding: 10px;
+}
+
+.nota {
+    height: 5px;
+color: navy;
+position: absolute;
+    top: 410px;
+    left:18px;
+   
+
+}
+@media only screen and (max-width: 480px) {
+    /* Estilos para pantallas más pequeñas, como la mayoría de los celulares Samsung */
+    body {
+      font-size: 14px;
+    }
+    body {
+        background: linear-gradient(to top, #ffffff, #0b3cf0);
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .bloqueImagenes img {
+        display: inline-block;
+        margin: 5%;
+        width: 90%; 
+        max-width: 450px;
+        height: auto; 
+        border-radius: 10px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 3vw; /* Tamaño de fuente relativo */
+        color: #ffffff;
+    }
+    
+    input[type="text"] {
+        position: relative; /* Cambiado de absolute a relative */
+        margin: 5% auto; /* Margen superior e inferior del 5%, centrado horizontalmente */
+        padding: 5%;
+        border-radius: 10px;
+        border: 1px solid #ccc; /* Añadido un borde delgado */
+        width: 90%; 
+        max-width: 350px;
+        height: auto; 
+    }
+    
+    button {
+        width: 50%;
+        padding: 5%;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.5s;
+        margin: 5% auto; /* Margen superior e inferior del 5%, centrado horizontalmente */
+    }
+    
+    button:hover {
+        background-color: hsl(184, 75%, 65%);
+    }
+    
+    .resultado {
+        position: relative; /* Cambiado de absolute a relative */
+        margin: 5% auto; /* Margen superior e inferior del 5%, centrado horizontalmente */
+        padding: 5%;
+        border-radius: 10px;
+        border: 1px solid #ccc; /* Añadido un borde delgado */
+        width: 90%; 
+        max-width: 400px;
+        height: auto; 
+    }
+    
+    footer {
+        text-align: center; 
+        padding: 5%;
+    }
+    
+    .nota {
+        height: 5px; /
+        color: navy;
+        position: relative; /* Cambiado de absolute a relative */
+        margin-top: 5%; /* Espacio superior del 5% */
+    }
+    
+  }
+  
+
+
